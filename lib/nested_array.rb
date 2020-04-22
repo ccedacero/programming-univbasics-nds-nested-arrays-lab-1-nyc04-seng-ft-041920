@@ -18,8 +18,8 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix
   new_Arr = [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE
+        ORGANIC_PRODUCE,
+    CONVENTIONAL_PRODUCE
     ]
   
   # Build an array that contains both of the above arrays
@@ -48,5 +48,5 @@ def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
-  return matrix[row][column] = new_value
+   matrix[row][column] = new_value
 end
